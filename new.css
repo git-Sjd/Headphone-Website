@@ -1,0 +1,101 @@
+
+*{
+box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+padding: 20px 15%;
+display: flex;
+justify-content: space-between;
+font-size: 24px;
+box-sizing: border-box;
+font-weight: bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 1000;
+}
+
+#menu, menu:hover{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    cursor: pointer;
+}
+
+#headphone_div{
+    display: flex;
+    padding: 0 15%;
+    color: rgb(80, 80, 80);
+    justify-content: space-between;
+    
+}
+#text_div{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 50%;
+    
+
+}
+#buttn,buttn:hover{
+    padding: 12px 20px;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    border-radius: 30px;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+#bck_img{
+    background-image: url('./website/gal4958.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    min-height:600px;
+}
+#back_txt{
+    background-color: rgb(37, 36, 36);
+    opacity: 0.7;
+    min-height: 600px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inside_txt{
+    color: white;
+}
+
+
+#last_div{
+    display: flex;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 100px 200px;
+text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info:hover{
+    cursor: pointer;
+}
+
+#email{
+    padding: 15px 25px;
+    background-color: rgb(180, 167, 167);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 15px;
+}
+
+  
